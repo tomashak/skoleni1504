@@ -3,7 +3,7 @@ Documentation  PageObject for MainPage
 Library  SeleniumLibrary
 
 *** Variables ***
-${SEARCH_FIELD_ID}  id=form-sitesearch-input
+${SEARCH_FIELD_ID} =  id=form-sitesearch-input
 ${SEARCH_BTN_XPATH}  //div[@id="mobile-search"]//button
 
 *** Keywords ***
